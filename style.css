@@ -1,0 +1,128 @@
+/* Definindo estilos para o corpo da página */
+body {
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #d7d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 30px solid #333;
+}
+
+.grid-item {
+    width: 100%;
+}
+
+
+h1 {
+    padding: 20px;
+    width: calc(100% - 50px);
+    border: 2px solid white;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+
+}
+
+
+/* Definindo estilos para as labels */
+label {
+
+    margin-bottom: 6px;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Definindo estilos para os inputs */
+input {
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    padding: 6px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 53px;
+    width: 40%;
+
+
+}
+
+/* Definindo estilos para os botões */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+/* Definindo estilos para o resultado */
+#resultado {
+
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-right: 95px;
+    margin-top: 10px;
+    width: 30%;
+}
+
+/* Definindo estilos para o botão limpar */
+button:last-of-type {
+    margin-right: 0;
+}
+
+/* Definindo estilos para as tags h3 e h4 */
+
+h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 5px;
+    margin-right: 65px;
+}
+
+/* Definindo estilo para o footer */
+footer {
+    text-align: center;
+
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+
+    width: calc(100% - 50px);
+    border: 2px solid white;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+}
+
+.mensagem {
+    color: red;
+    position: fixed;
+    top: 15.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1vw;
+    background-color: #fff;
+    border: 0.2em solid #000;
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.5);
+}

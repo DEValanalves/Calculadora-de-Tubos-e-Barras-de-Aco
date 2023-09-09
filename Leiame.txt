@@ -1,0 +1,3 @@
+Esse projeto é uma calculadora que tem o objetivo de calcular o peso teriorico de tubos Redondos e barras de aço Redondas e Quadradas.
+
+O projeto esta em Produção para acessar acesse o link; https://calcularpesoteorico.netlify.app/

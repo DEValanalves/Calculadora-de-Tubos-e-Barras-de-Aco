@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="Imagem\calcular.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Peso Teorico</title>
+    <meta charset="utf-8">
+    <h1>Calculadora Peso Teorico <img id="info" src="Imagem\favicon-32x32.png" alt="Imagem Informacao"> </h1>
+
+</head>
+
+<body>
+
+
+
+    <h4>
+        <label for="num1">Digite o Diametro da Barra ou Tubo em 'mm':</label>
+        <input type="number" id="num1"><br><br>
+        <label for="num2">Digite o Comprimento em 'mm':</label>
+        <input type="number" id="num2"><br><br>
+        <label for="num3">Digite a Espessura do Tubo em 'mm':</label>
+        <input type="number" id="num3"><br><br>
+    </h4>
+
+    <h3>Selecione uma opção abaixo para Calcular o peso:</h3>
+
+
+    <div class="flex-container">
+        <button onclick="calcular('1')">BARRA REDONDA</button>
+        <img src="Imagem\barra32.png" alt="Imagem da Barra Redonda">
+        <br><br>
+        <button onclick="calcular('2')">BARRA QUADRADA</button>
+        <img src="Imagem\barraq32.png" alt="Imagem da Barra Quadrada">
+        <br><br>
+        <button onclick="calcular('3')">TUBO</button>
+        <img src="Imagem\tubo32.png" alt="Imagem d Tubo ">
+    </div>
+
+    <label for="resultado">
+        <h3>Resultado:</h3>
+    </label>
+    <input type="text" id="resultado" disabled>
+
+
+    <button onclick="limpar()">Limpar</button>
+    <br><br>
+
+    <footer>
+        <h5> ©Cpyright 2023 - Alan Alves</h5>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
